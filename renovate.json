@@ -1,0 +1,19 @@
+{
+  "extends": [
+    ":separateMajorReleases",
+    ":combinePatchMinorReleases",
+    ":ignoreUnstable",
+    ":prImmediately",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":updateNotScheduled",
+    ":automergeDisabled",
+    ":ignoreModulesAndTests",
+    ":autodetectPinVersions",
+    "group:monorepos",
+    "group:recommended",
+    "workarounds:all"
+  ],
+  "prConcurrentLimit": 1,
+  "prHourlyLimit": 1,
+  "schedule": ["every weekend"]
+}
