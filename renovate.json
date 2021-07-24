@@ -11,7 +11,8 @@
     ":autodetectPinVersions",
     "group:monorepos",
     "group:recommended",
-    "workarounds:all"
+    "workarounds:all",
+    ":reviewer(devatherock)"
   ],
   "prConcurrentLimit": 1,
   "prHourlyLimit": 1,
