@@ -6,7 +6,7 @@
     ":prImmediately",
     ":semanticPrefixFixDepsChoreOthers",
     ":updateNotScheduled",
-    ":automergeDisabled",
+    ":automergeMinor",
     ":ignoreModulesAndTests",
     ":autodetectPinVersions",
     "group:monorepos",
